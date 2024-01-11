@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" http://localhost:5500/favicon.ico />
+   <title>Document</title>
+</head>
+
+<body>
+
+   <div id="myDIV" class="header">
+      <h2 style="margin:5px">My To Do List</h2>
+      <input type="text" id="myInput" placeholder="Type a TODO list...">
+      <span onclick="addItem()" id="addBtn">Add</span>
+   </div>
+
+   <ul id="myTODOs">
+      <li>Write more JavaScript</li>
+      <li class="checked">Make coffee</li>
+      <li>Read JavaScript documentation</li>
+      <li>Build awesome apps</li>
+   </ul>
+
+   <script src="./insertDom.js"></script>
+</body>
+
+</html>
